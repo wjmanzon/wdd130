@@ -21,12 +21,15 @@ Fonts are separated by a | */
   --paragraph-color-on-white: #03045E; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #CAF0F8; /* paragraph text on a colored background */ 
   --paragraph-background-color: #03045E  ;
-  --nav-link-color: #03045E;
-  --nav-background-color: #CAF0F8;
-  --nav-hover-link-color: #CAF0F8;
-  --nav-hover-background-color: #0077B6;
+  --nav-link-color: #CAF0F8;
+  --nav-background-color: #03045E;
+  --nav-hover-link-color: #03045E;
+  --nav-hover-background-color: #CAF0F8;
 }
 
+nav {
+  font-family: EB Garamond;
+}
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
