@@ -1,75 +1,87 @@
 /* THIS CSS FILE WILL PROVIDE STYLES FOR EVERY PAGE OF THE RAFTING WEBSITE. */
 
 #content {
-    max-width: 1600px;
-    margin: 0 auto;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
-nav a, #hero-msg h1, #hero-msg h4, .button-box, main {
-    text-align: center;
+nav a,
+#hero-msg h1,
+#hero-msg h4,
+.button-box,
+main {
+  text-align: center;
 }
 
 #background {
-    height: 725px;
+  height: 725px;
 }
 
 body {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 }
 
-header, nav a, footer, footer a{
-    background-color: white;
-    color: #03045e;
-    text-decoration: none;
+header,
+nav a,
+footer,
+footer a {
+  background-color: white;
+  color: #03045e;
+  text-decoration: none;
 }
 
-nav a:hover, footer a:hover{
-    background-color: #0096C7;
-    color: black;
+nav a:hover,
+footer a:hover {
+  background-color: #0096c7;
+  color: black;
 }
 
-footer p{
-    font-size: 1.2em;
+footer p {
+  font-size: 1.2em;
 }
 
 footer p a:hover {
-    text-decoration: underline;
-}  
-
-.book, .join {
-    background-color: #03045E;
-    color: white;
-    text-decoration: none;
+  text-decoration: underline;
 }
 
-.book:hover, .join:hover {
-    background-color: #0096C7;
-    color: black;
+.book,
+.join {
+  background-color: #03045e;
+  color: white;
+  text-decoration: none;
+}
+
+.book:hover,
+.join:hover {
+  background-color: #0096c7;
+  color: black;
 }
 
 #background {
-    background-color: #0096C7;
-    color: black;
+  background-color: #0096c7;
+  color: black;
 }
 
 .msg h2 {
-    color: black;
+  color: black;
 }
 
 .msg {
-    background-color: #0096C7;
-    color: black;
+  background-color: #0096c7;
+  color: black;
 }
 
-.home-title, h4{
-    color: #03045E;
+.home-title,
+h4 {
+  color: #03045e;
 }
 
-.logo, .icon {
-    width: 80px;
+.logo,
+.icon {
+  width: 80px;
 }
 
 #hero-img {
-    width: 100%;
+  width: 100%;
 }
