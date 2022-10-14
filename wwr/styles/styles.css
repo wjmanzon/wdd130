@@ -1,6 +1,6 @@
 /* THIS CSS FILE WILL PROVIDE STYLES FOR EVERY PAGE OF THE RAFTING WEBSITE. */
 
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&family=Raleway:wght@200;300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&family=Raleway:wght@200;300&display=swap");
 
 #content {
   max-width: 1600px;
@@ -11,7 +11,7 @@
   padding-top: 5px;
 }
 
-.logo{
+.logo {
   width: 150px;
 }
 
@@ -53,7 +53,7 @@ footer a {
   background-color: white;
   color: #03045e;
   text-decoration: none;
-  font-family:'EB Garamond','Garamond','Times New Romans';
+  font-family: "EB Garamond", "Garamond", "Times New Romans";
 }
 
 nav a:hover,
@@ -68,7 +68,7 @@ nav a {
 
 footer p {
   font-size: 1.2em;
-  font-family:'EB Garamond','Garamond','Times New Romans';
+  font-family: "EB Garamond", "Garamond", "Times New Romans";
 }
 
 footer p a:hover {
@@ -89,7 +89,7 @@ footer .social img {
   background-color: #03045e;
   color: white;
   text-decoration: none;
-  font-family:'EB Garamond','Garamond','Times New Romans';
+  font-family: "EB Garamond", "Garamond", "Times New Romans";
   font-size: 18px;
   padding: 15px 30px;
   margin-top: 50px;
@@ -106,26 +106,26 @@ footer .social img {
 
 .msg h2 {
   color: black;
-  font-family:'EB Garamond','Garamond','Times New Romans';
+  font-family: "EB Garamond", "Garamond", "Times New Romans";
 }
 
 .msg {
   background-color: #0096c7;
   color: black;
-  font-family:'Raleway','Tahoma','Trebuchet MS';
+  font-family: "Raleway", "Tahoma", "Trebuchet MS";
   line-height: 1.5em;
   padding: 35px;
 }
 
 .msg p {
-  font-size: .8em;
+  font-size: 0.8em;
   padding-bottom: 15px;
 }
 
 .home-title,
 h4 {
   color: #03045e;
-  font-family:'EB Garamond','Garamond','Times New Romans';
+  font-family: "EB Garamond", "Garamond", "Times New Romans";
   font-size: 2em;
 }
 
@@ -133,12 +133,13 @@ h4 {
   padding-top: 15px;
 }
 
-
 #hero-img {
   width: 100%;
 }
 
-.rivers-card, .camping-card, .rapids-card{
+.rivers-card,
+.camping-card,
+.rapids-card {
   margin: 200px 0;
 }
 
