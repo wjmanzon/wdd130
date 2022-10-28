@@ -62,6 +62,8 @@ header {
   text-align: center;
   color: var(--paragraph-color-on-color);
   background-color: var(--paragraph-background-color);
+  display: grid;
+  grid-template-columns: 150px auto;
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
