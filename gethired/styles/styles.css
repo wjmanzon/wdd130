@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@600&family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway:wght@200&display=swap');
 
 /* WHOLE CONTENT START */
 #content {
@@ -11,7 +12,7 @@
 
 /* HEADER START */ 
 #logo_link {
-    padding-top: 5px;
+    padding-top: 0px;
     justify-self: center;
     align-self: center;
   }
@@ -24,12 +25,19 @@ nav a {
     text-align: right;
     padding: 50px;
     text-decoration: none;
+    font-family: 'Lato', sans-serif, 'Montserrat';
+}
+
+nav a:hover {
+    background-color: #023047;
+    color: white;
 }
 
 header {
+    background-color: #FB8500;
     display: grid;
     grid-template-columns: 150px auto;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 nav {
@@ -41,11 +49,126 @@ nav {
 
 /* MAIN START */
 
+#hero {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+#hero-box {
+    grid-column: 1/11;
+    grid-row: 1/4;
+}
+
+#hero-msg {
+    grid-column: 2/6;
+    grid-row: 1/4;
+}
+
+#hero-msg h1, #hero-msg p {
+    font-size: 2em;
+}
+
+#hero-msg h1 {
+    font-family: 'Lato', sans-serif, 'Montserrat';
+}
+
+#hero-msg p {
+    font-family: 'Raleway', sans-serif;
+}
+
 #hero-img {
     width: 100%;
     margin: -140px auto;
 }
 
+/* THREE COLUMNS */
+#three-columns {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+#three-columns-msg {
+    grid-column: 2/9;
+    grid-row: 1/2;
+    text-align: center;
+}
+
+#three-columns img {
+    width: 100%;
+    text-align: center;
+}
+
+#three-columns h2, #three-columns h3, #three-columns p {
+    font-size: 2em;
+}
+
+#learn {
+    grid-column: 2/3;
+    grid-row: 2/4;
+    text-align: center;
+}
+
+#brainstorm {
+    grid-column: 5/6;
+    grid-row: 2/4;
+    text-align: center;
+}
+
+#practice {
+    grid-column: 8/9;
+    grid-row: 2/4;
+    text-align: center;
+}
+
+#three-columns h2,
+#three-columns h3 {
+    font-family: 'Lato', sans-serif, 'Montserrat';
+}
+
+#three-columns p {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* GET HIRED */
+
+#get-hired {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: 1fr 1fr;
+}
+
+#get-hired-msg {
+    grid-column: 3/5;
+    grid-row: 1/4;
+    font-size: 1.5em;
+}
+
+#get-hired-msg h2, .cta {
+    font-family: 'Lato', sans-serif, 'Montserrat';
+}
+
+#get-hired-msg p {
+    font-family: 'Raleway', sans-serif;
+}
+
+#get-hired-img-box {
+    grid-column: 6/8;
+    grid-row: 1/4;
+}
+
+.get-hired-img {
+    width: 100%;
+}
+
+.cta {
+    padding: 15px 30px;
+    color: white;
+    background-color: #023047;
+    border-color: #023047;
+    border-radius: 5px;
+}
 
 /* FOOTER START */
 footer {
@@ -58,6 +181,10 @@ footer {
 
 footer .social-img {
     padding-top: 15px;
+}
+
+footer p {
+    font-family: 'Lato', sans-serif, 'Montserrat';
 }
 
 /* FOOTER END */
