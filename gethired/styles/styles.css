@@ -349,6 +349,7 @@ nav {
 
 /* FOOTER START */
 footer {
+    background-color: #FB8500;
     padding: 10px 50px;
     margin-top: 200px;
     display: flex;
