@@ -11,7 +11,7 @@
 
 
 /* HEADER START */ 
-#logo_link {
+#logo_link, #footer-logo-link {
     padding-top: 0px;
     justify-self: center;
     align-self: center;
