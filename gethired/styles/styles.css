@@ -192,10 +192,12 @@ nav {
 
 .ig-grid h2 {
     font-family: 'Lato', sans-serif, 'Montserrat';
+    font-size: 1.2em;
 }
 
 .ig-grid p {
-  font-family: 'Raleway', sans-serif; 
+ font-family: 'Raleway', sans-serif;
+  font-size: 1.2em;
 }
 
 #question-1 {
