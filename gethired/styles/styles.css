@@ -25,11 +25,12 @@ nav a {
     text-align: right;
     padding: 50px;
     text-decoration: none;
+    color: black;
     font-family: 'Lato', sans-serif, 'Montserrat';
 }
 
 nav a:hover {
-    background-color: #023047;
+    background-color: #219EBC;
     color: white;
 }
 
@@ -37,7 +38,7 @@ header {
     background-color: #FB8500;
     display: grid;
     grid-template-columns: 150px auto;
-    opacity: 0.6;
+    /*opacity: 0.6;*/
 }
 
 nav {
@@ -359,8 +360,10 @@ footer .social-img {
     padding-top: 15px;
 }
 
-footer p {
+footer p, footer a {
     font-family: 'Lato', sans-serif, 'Montserrat';
+    color: black;
+    text-decoration: none;
 }
 
 /* FOOTER END */
