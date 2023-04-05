@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/styles.css">
-    <title>Subscribe | GetHired</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Subscribe to our content.">
+        
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/small.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
+    
+        <title>Subscribe to GetHired</title>
+    </head>
 <body>
-    <div id="content">
     <header>
-        <a id="logo_link" href="index.html">
+        <a class="logo_link" href="index.html">
             <img class="logo" src="images/GetHired-logo.png" alt="Get Hired logo">
         </a>
         <nav>
@@ -21,16 +26,23 @@
         </nav>
     </header>
     <main>
-        <div id="subscribe-hero">
-            <div id="background-color"></div>
-            <div id="subscribe-hero-box">
-                <img id="subscribe-hero-img" src="images/white-handshake.jpg" alt="hero image for subscribe page">
+        <div class="ig-hero">
+            <div class="ig-hero-box">
+                <img class="ig-hero-img" src="images/white-handshake.jpg" alt="hero image for IG page">
+                <div class="overlay"></div>
             </div>
-            <section id="subscribe-hero-msg">
+            <section class="ig-hero-msg">
                 <h1 class="subscribe-title">Newsletter</h1>
                 <p>
-                    Get well-researched career development advice that have helped thousands of job applicants.<br>
+                    Get well-researched career development advice that have helped thousands of job applicants.
                     <br>
+                </p>
+            </section>
+        </div>
+        <div class="subscribe-hero">
+            <section class="subscribe-hero-msg">
+                <h1 class="subscribe-title">Subscribe for more content! </h1>
+                <p>
                     What you'll learn:<br>
                     -how to write a compelling resume<br>
                     -how to write a cover letter<br>
@@ -40,28 +52,29 @@
                     -and many more!<br>
                     <br>
                 </p>
-                <a id="subscribe-button" href="https://forms.gle/fxerQMviU1jc61Zy8"> Subscribe Now </a>
+                <a class="subscribe-button" href="https://forms.gle/fxerQMviU1jc61Zy8"> Subscribe Now </a>
             </section>
         </div>
     </main>
     <footer>
-        <a id="footer-logo_link" href="index.html">
+        <a class="logo" href="index.html">
             <img class="logo" src="images/GetHired-logo.png" alt="Get Hired logo">
         </a>
-        <p>Get Hired &copy; 2022 - Wilson Jr Manzon</p>
-        <p><a href="site-plan-rafting.html">Site Plan</a></p>
+        <div class="footer-text">
+            <p class="footer-textt">Get Hired &copy; 2022 - Wilson Jr Manzon</p>
+            <p class="footer-textt"><a href="site-plan-rafting.html">Site Plan</a></p>
+        </div>
         <div class="social">
             <a href="https://facebook.com" target="_blank">
-                <img src="images/facebook.png" alt="fb icon">
+                <img class="social-icon" src="images/facebook.png" alt="fb icon">
             </a>
             <a href="https://twitter.com" target="_blank">
-                <img src="images/twitter.png" alt="twitter icon">
+                <img class="social-icon" src="images/twitter.png" alt="twitter icon">
             </a>
             <a href="https://instagram.com" target="_blank">
-                <img src="images/instagram.png" alt="instagram icon">
+                <img class="social-icon" src="images/instagram.png" alt="instagram icon">
             </a>
         </div>
     </footer>
-    </div>
 </body>
 </html>
